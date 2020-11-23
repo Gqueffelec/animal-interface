@@ -5,7 +5,7 @@ import action.Marcheur;
 
 public class Chat extends Animal implements Criant, Marcheur {
 
-	protected Chat(String nom) {
+	public Chat(String nom) {
 		super(nom);
 		// TODO Auto-generated constructor stub
 	}

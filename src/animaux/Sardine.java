@@ -4,7 +4,7 @@ import action.Nageur;
 
 public class Sardine extends Animal implements Nageur {
 
-	protected Sardine(String nom) {
+	public Sardine(String nom) {
 		super(nom);
 		// TODO Auto-generated constructor stub
 	}

@@ -4,7 +4,7 @@ import action.Criant;
 import action.Marcheur;
 
 public class Chien extends Animal implements Criant, Marcheur {
-	protected Chien(String nom) {
+	public Chien(String nom) {
 		super(nom);
 		// TODO Auto-generated constructor stub
 	}
