@@ -10,7 +10,11 @@ public class Sardine extends Animal implements Nageur {
 	}
 
 	public void nage() {
-		System.out.println(this.nom + "nage dans l'eau");
+		System.out.println(this.nom + " nage dans l'eau");
+	}
+
+	public void mangePlancton() {
+		System.out.println(this.nom + " mange du plancton");
 	}
 
 }

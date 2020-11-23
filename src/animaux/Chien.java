@@ -16,4 +16,8 @@ public class Chien extends Animal implements Criant, Marcheur {
 	public void marche() {
 		System.out.println(this.nom + " marche avec ses quatres pattes");
 	}
+
+	public void enterreUnOs() {
+		System.out.println(this.nom + " enterre un os");
+	}
 }

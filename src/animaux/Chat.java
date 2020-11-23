@@ -18,4 +18,7 @@ public class Chat extends Animal implements Criant, Marcheur {
 		System.out.println(this.nom + " marche avec ses quatres pattes");
 	}
 
+	public void joueAvecPelotteDeLaine() {
+		System.out.println(this.nom + " joue avec une pelotte de laine");
+	}
 }
